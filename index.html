@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramanjeet Singh | Backend Engineer</title>
+  <meta name="description" content="Portfolio of Ramanjeet Singh, Backend Engineer specializing in Scala, Akka, Spring Boot, and Distributed Microservices.">
+  
+  <!-- Preconnect to external resources -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb glow-orb-1" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-2" aria-hidden="true"></div>
+  <div class="glow-orb glow-orb-3" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="site-logo" aria-label="Ramanjeet Singh Portfolio Home">
+        <span class="logo-accent">&lt;</span>Ramanjeet<span class="logo-accent">.</span>Singh<span class="logo-accent"> /&gt;</span>
+      </a>
+      
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Area (Mobile Menu Toggle) -->
+      <div class="header-actions">
+        <button class="mobile-nav-toggle icon-btn" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" aria-label="Introduction">
+      <div class="container hero-container">
+        <div class="hero-text-content">
+          <span class="hero-greeting" id="hero-greeting-text">Hello, I'm</span>
+          <h1 class="hero-name">Ramanjeet Singh</h1>
+          
+          <div class="hero-role-wrapper">
+            <span class="sr-only">Role: </span>
+            <span class="hero-role" id="typewriter-text" aria-live="polite">Backend Engineer</span>
+            <span class="typewriter-cursor" aria-hidden="true">|</span>
+          </div>
+          
+          <p class="hero-summary">
+            Specializing in designing and scaling distributed microservices using <strong class="highlight">Scala</strong>, <strong class="highlight">Akka</strong>, <strong class="highlight">Spring Boot</strong>, and <strong class="highlight">Elasticsearch</strong>. Dedicated to building high-performance, secure, and resilient systems.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            <a href="Ramanjeet_Singh_Resume.pdf" download="Ramanjeet_Singh_Resume.pdf" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section scroll-reveal" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading" class="section-title">About Me</h2>
+        <div class="about-content grid-2">
+          <div class="about-bio">
+            <p>
+              I am a results-driven **Backend Engineer** based in Hyderabad, India, with hands-on experience building scale-ready backend architectures. I work closely with modern technologies to design distributed microservices, integrate high-complexity transactional workflows, and optimize systems for performance.
+            </p>
+            <p>
+              My coding philosophy rests on three pillars: **efficiency**, **robust error resilience**, and **clean architecture**. Whether it is writing clean Scala code in Akka, optimizing relational DB schemas in MySQL, or configuring full-text queries in Elasticsearch, I aim to build systems that are elegant and scale gracefully under load.
+            </p>
+          </div>
+          
+          <div class="about-highlights glass">
+            <h3>Quick Highlights</h3>
+            <ul class="highlight-list">
+              <li>
+                <span class="highlight-num">5+</span>
+                <span class="highlight-lbl">Insurer & Gateway Integrations Completed</span>
+              </li>
+              <li>
+                <span class="highlight-num">~40%</span>
+                <span class="highlight-lbl">Reduction in Manual Processing Time at Upsure AI</span>
+              </li>
+              <li>
+                <span class="highlight-num">2+</span>
+                <span class="highlight-lbl">Years Professional Experience in Backend Architectures</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience-section scroll-reveal" aria-labelledby="exp-heading">
+      <div class="container">
+        <h2 id="exp-heading" class="section-title text-center">Work Experience</h2>
+        
+        <div class="timeline">
+          <!-- Upsure AI -->
+          <div class="timeline-item glass">
+            <div class="timeline-meta">
+              <span class="timeline-date">Mar 2025 – Present</span>
+              <span class="timeline-location">Hyderabad, India</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">Software Engineer – Backend</h3>
+              <h4 class="timeline-company">Upsure AI</h4>
+              <ul class="timeline-bullets">
+                <li>Designed and maintained Scala/Akka microservices powering digital insurance workflows, serving thousands of transaction flows daily (policy issuance, renewals, payments).</li>
+                <li>Integrated 5+ third-party insurer APIs and payment gateways, automating quotes and policy purchases to slash manual processing by 40%.</li>
+                <li>Led root-cause analysis and fixed critical production incidents across distributed services, consistently reducing the Mean Time to Resolution (MTTR).</li>
+                <li>Built and optimized high-throughput REST APIs using Scala, Akka HTTP, Spring Boot, and Elasticsearch.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Dice -->
+          <div class="timeline-item glass">
+            <div class="timeline-meta">
+              <span class="timeline-date">May 2024 – Oct 2024</span>
+              <span class="timeline-location">Pune, India</span>
+            </div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">Software Engineer – Backend</h3>
+              <h4 class="timeline-company">Dice</h4>
+              <ul class="timeline-bullets">
+                <li>Developed Java / Spring Boot RESTful services for expense and travel management, streamlining workflow speed for enterprise clients.</li>
+                <li>Engineered HRMS integrations and transaction reconciliation automation, improving data consistency.</li>
+                <li>Maintained and optimized database schemas in MySQL to support high-frequency transactions.</li>
+                <li>Collaborated closely with QA to deliver hotfixes and maintain high availability of core business modules.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education-certifications" class="education-section scroll-reveal" aria-labelledby="edu-heading">
+      <div class="container">
+        <div class="grid-2">
+          <!-- Education Card -->
+          <div class="education-card-wrapper glass">
+            <h2 id="edu-heading" class="section-title">Education</h2>
+            <div class="education-timeline">
+              <div class="edu-item">
+                <span class="edu-date">Oct 2022 – Oct 2023</span>
+                <h3>Full Stack Development</h3>
+                <p class="edu-school">Masai School</p>
+              </div>
+              <div class="edu-item">
+                <span class="edu-date">Oct 2016 – Oct 2019</span>
+                <h3>Diploma in Information Technology</h3>
+                <p class="edu-school">Government Polytechnic, Ghaziabad</p>
+              </div>
+              <div class="edu-item">
+                <span class="edu-date">2015 – 2016</span>
+                <h3>Intermediate (Mathematics)</h3>
+                <p class="edu-school">Janta Inter College</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Certifications Card -->
+          <div class="certifications-card-wrapper glass">
+            <h2 id="cert-heading" class="section-title">Certifications</h2>
+            <ul class="certifications-list">
+              <li>
+                <div class="cert-info">
+                  <h3>SQL (Intermediate)</h3>
+                  <p class="cert-org">HackerRank</p>
+                </div>
+              </li>
+              <li>
+                <div class="cert-info">
+                  <h3>Problem Solving (Basic)</h3>
+                  <p class="cert-org">HackerRank</p>
+                </div>
+              </li>
+              <li>
+                <div class="cert-info">
+                  <h3>JavaScript (Basic)</h3>
+                  <p class="cert-org">HackerRank</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-reveal" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title">Technical Expertise</h2>
+        
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-card glass">
+            <div class="skill-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h3>Languages</h3>
+            <ul class="skill-list">
+              <li>Scala</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+              <li>Python</li>
+            </ul>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-card glass">
+            <div class="skill-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+            </div>
+            <h3>Frameworks</h3>
+            <ul class="skill-list">
+              <li>Akka / Akka HTTP</li>
+              <li>Spring Boot</li>
+              <li>REST APIs</li>
+              <li>Hibernate / JPA</li>
+            </ul>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card glass">
+            <div class="skill-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+            </div>
+            <h3>Databases</h3>
+            <ul class="skill-list">
+              <li>Elasticsearch</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>Cassandra</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+
+          <!-- Tools & Architecture -->
+          <div class="skill-card glass">
+            <div class="skill-card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="svg-icon"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h3>Tools & Architecture</h3>
+            <ul class="skill-list">
+              <li>Microservices</li>
+              <li>Distributed Systems</li>
+              <li>Event-Driven Design</li>
+              <li>Git / GitHub</li>
+              <li>Cursor / Antigravity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-reveal" aria-labelledby="proj-heading">
+      <div class="container">
+        <h2 id="proj-heading" class="section-title text-center">Featured Projects</h2>
+        
+        <div class="projects-grid">
+          <!-- Insurance AI Assistant -->
+          <article class="project-card glass">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-tag">AI & Backend</span>
+                <h3 class="project-title">insurance-ai-assistant</h3>
+              </div>
+              <p class="project-desc">
+                An AI-powered assistant designed for digital insurance workflows. Automates client interaction channels, speeds up coverage comparison requests, and optimizes the policy recommendation pipeline.
+              </p>
+              <div class="project-tech">
+                <span>Scala</span>
+                <span>Akka</span>
+                <span>Spring Boot</span>
+                <span>NLP / LLM</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ramanjeetme-a11y/insurance-ai-assistant" target="_blank" rel="noopener noreferrer" aria-label="View insurance-ai-assistant code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Book My Bus -->
+          <article class="project-card glass">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-tag">Full Stack</span>
+                <h3 class="project-title">Book-My-Bus</h3>
+              </div>
+              <p class="project-desc">
+                A comprehensive bus ticket booking application featuring terminal search, real-time seat allocation, payment integration simulation, and robust management consoles.
+              </p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ramanjeetme-a11y/Book-My-Bus" target="_blank" rel="noopener noreferrer" aria-label="View Book-My-Bus code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CustomerManagement -->
+          <article class="project-card glass">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-tag">Backend</span>
+                <h3 class="project-title">CustomerManagement</h3>
+              </div>
+              <p class="project-desc">
+                Enterprise backend service featuring JWT token security controls, custom customer lifecycle handlers, and audit logging databases for high-security environments.
+              </p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>JWT Security</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ramanjeetme-a11y/CustomerManagement" target="_blank" rel="noopener noreferrer" aria-label="View CustomerManagement code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Blog APP -->
+          <article class="project-card glass">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-tag">API Design</span>
+                <h3 class="project-title">Blog_APP REST Engine</h3>
+              </div>
+              <p class="project-desc">
+                A highly secure REST API powering a blogging engine with role-based auth limits, tag associations, custom comment threads, and high-performance JPA queries.
+              </p>
+              <div class="project-tech">
+                <span>Spring Boot</span>
+                <span>Hibernate</span>
+                <span>JPA</span>
+                <span>REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ramanjeetme-a11y/Blog_APP" target="_blank" rel="noopener noreferrer" aria-label="View Blog APP code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- FashionHub -->
+          <article class="project-card glass">
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-tag">Frontend</span>
+                <h3 class="project-title">FashionHub Landing Page</h3>
+              </div>
+              <p class="project-desc">
+                An interactive e-commerce landing page built to test CSS structures, responsive grid adjustments, fluid animations, and mobile interface aesthetics.
+              </p>
+              <div class="project-tech">
+                <span>HTML5</span>
+                <span>Vanilla CSS</span>
+                <span>Responsive</span>
+                <span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/ramanjeetme-a11y/FashionHub" target="_blank" rel="noopener noreferrer" aria-label="View FashionHub code on GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-reveal" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-title text-center">Get in Touch</h2>
+        
+        <div class="contact-grid grid-2">
+          <div class="contact-info">
+            <h3>Let's collaborate!</h3>
+            <p>
+              I am open to backend roles, distributed systems design challenges, and open-source integrations. Drop a line if you want to chat about Scala, Akka, Spring Boot, or system architectures.
+            </p>
+            
+            <ul class="contact-details-list">
+              <li>
+                <span class="detail-icon" aria-hidden="true">📍</span>
+                <span>Hyderabad, India</span>
+              </li>
+              <li>
+                <span class="detail-icon" aria-hidden="true">✉️</span>
+                <a href="mailto:ramanjeet.me@gmail.com" class="detail-link">ramanjeet.me@gmail.com</a>
+              </li>
+              <li>
+                <span class="detail-icon" aria-hidden="true">🔗</span>
+                <a href="https://linkedin.com/in/raman0001" target="_blank" rel="noopener noreferrer" class="detail-link">linkedin.com/in/raman0001</a>
+              </li>
+              <li>
+                <span class="detail-icon" aria-hidden="true">💻</span>
+                <a href="https://github.com/ramanjeetme-a11y" target="_blank" rel="noopener noreferrer" class="detail-link">github.com/ramanjeetme-a11y</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="contact-form-wrapper glass">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name">Name <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="form-name" name="name" required aria-required="true" placeholder="Your Name">
+                <span class="form-error" id="error-name" aria-live="polite"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-email">Email <span class="required" aria-hidden="true">*</span></label>
+                <input type="email" id="form-email" name="email" required aria-required="true" placeholder="your.email@example.com">
+                <span class="form-error" id="error-email" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="form-message" name="message" rows="5" required aria-required="true" placeholder="What would you like to discuss?"></textarea>
+                <span class="form-error" id="error-message" aria-live="polite"></span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon-inline" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="form-status" class="form-status" aria-live="assertive"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Ramanjeet Singh. All rights reserved.</p>
+      <p class="footer-meta">Built with Vanilla HTML/CSS/JS with a focus on high-performance backend systems</p>
+    </div>
+  </footer>
+
+  <!-- Script file -->
+  <script src="script.js"></script>
+</body>
+</html>
